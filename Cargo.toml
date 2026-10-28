@@ -31,7 +31,7 @@ url = ["tungstenite/url"]
 
 [dependencies]
 log = "0.4.17"
-futures-util = { version = "0.3.28", default-features = false, features = ["sink", "std"] }
+futures-util = { version = "0.3.34", default-features = false, features = ["sink", "std"] }
 tokio = { version = "1.0.0", default-features = false, features = ["io-util"] }
 
 [dependencies.tungstenite]
@@ -70,7 +70,7 @@ optional = true
 version = "0.26.0"
 
 [dev-dependencies]
-futures-channel = "0.3.28"
+futures-channel = "0.3.34"
 hyper = { version = "1.0", default-features = false, features = ["http1", "server"] }
 hyper-util = { version = "0.1", features = ["tokio"] }
 http-body-util = "0.1"
